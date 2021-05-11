@@ -6,13 +6,14 @@ from skopt.space import Categorical, Dimension, Integer, Real
 import freqtrade.vendor.qtpylib.indicators as qtpylib
 from freqtrade.optimize.hyperopt_interface import IHyperOpt
 
-__author__      = "Robert Roman"
-__credits__     = ["Bloom Trading, Mohsen Hassan - thanks for teaching me Freqtrade!"]
-__copyright__   = "Free For Use"
-__license__     = "MIT"
-__version__     = "1.0"
-__maintainer__  = "Robert Roman"
-__email__       = "robertroman7@gmail.com"
+__author__       = "Robert Roman"
+__credits__      = ["Bloom Trading, Mohsen Hassan - thanks for teaching me Freqtrade!"]
+__copyright__    = "Free For Use"
+__license__      = "MIT"
+__version__      = "1.0"
+__maintainer__   = "Robert Roman"
+__email__        = "robertroman7@gmail.com"
+__BTC_donation__ = "3FgFaG15yntZYSUzfEpxr5mDt1RArvcQrK"
 
 class bbrsi_opt(IHyperOpt):
 
