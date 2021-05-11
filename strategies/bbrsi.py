@@ -38,6 +38,9 @@ class bbrsi(IStrategy):
     def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
         # RSI
         dataframe['rsi'] = ta.RSI(dataframe)
+        
+        # MFI
+        dataframe['mfi'] = ta.MFI(dataframe)
 
         # Bollinger Bands 1,2,3 and 4
         bollinger1 = qtpylib.bollinger_bands(qtpylib.typical_price(dataframe), window=20, stds=1)
