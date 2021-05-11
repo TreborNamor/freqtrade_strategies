@@ -7,7 +7,6 @@ import freqtrade.vendor.qtpylib.indicators as qtpylib
 from freqtrade.optimize.hyperopt_interface import IHyperOpt
 
 __author__      = "Robert Roman"
-__credits__     = ["Bloom Trading, Mohsen Hassan - thanks for teaching me Freqtrade!"]
 __copyright__   = "Free For Use"
 __license__     = "MIT"
 __version__     = "1.0"
